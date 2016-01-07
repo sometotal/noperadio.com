@@ -1,10 +1,5 @@
-wordpress/
-wp-content/plugins/
-wp-content/uploads/
 node_modules/
 .DS_Store
 **/.DS_Store
 .htaccess
 vendor/
-composer.phar
-composer.lock
