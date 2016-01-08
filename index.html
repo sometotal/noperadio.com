@@ -2,22 +2,38 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div style="float:left; width: 350px;">
+  <iframe src="http://www.radionope.com/wp-content/plugins/shoutcast-icecast-html5-radio-player/html5/html5shoutcast.php?radiolink=http://amber.streamguys.com:4240/&radiotype=shoutcast1&bcolor=000000&width=350&height=400&image=&background=ffffff&shadow=0&autoplay=&metadata=1&metadataURL=&songhistory=1&bgimage=&facebook=http://www.facebook.com/radionope&twitter=http://twitter.com/radionope&gplus=https://plus.google.com/100825987461531739433&listeners=&title=Radio NOPE&artist=Radio NOPE&vol=90" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="350" height="400"></iframe>
+  * <a href="http://amber.streamguys.com:4240/listen.pls">direct stream link.</a>
+  * <a href="http://tunein.com/radio/Radio-NOPE-s245498/">NOPE on TUNEin Radio</a>
 </div>
+
+<div style="float:left">
+  <div style="width: 300px; height: 570px;">
+  <script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?-:yEY:X-"></script>
+  </div>
+  <small><a href="http://www.rumbletalk.com/client/chat.php?-:yEY:X-">direct link to chatbox</a></small>
+  <br>
+  <small>(numbers are NOT listeners, just those logged in to chat)</small><br>
+  <a href="http://www.radionope.com/mobile">BETA TEST THE RN MOBILE SITE!</a>
+</div>
+
+<!-- <div class="home"> -->
+
+<!--   <h1 class="page-heading">Posts</h1> -->
+
+<!--   <ul class="post-list"> -->
+<!--     {% for post in site.posts %} -->
+<!--       <li> -->
+<!--         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+
+<!--         <h2> -->
+<!--           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> -->
+<!--         </h2> -->
+<!--       </li> -->
+<!--     {% endfor %} -->
+<!--   </ul> -->
+
+<!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+<!-- </div> -->
