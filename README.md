@@ -14,4 +14,4 @@ Great! Do you know Jekyll? Do you know Jekyll on Github Pages? If not, read this
 
 Talk about some details specific to this Jekyll site, like Github Pages, Bundler and how to get up and running fast.
 
-Then sit back and watch the money pile up!
+Then sit back and watch the money pile up! Aw Yeah
