@@ -1,0 +1,24 @@
+protonic:
+  name: 'Conan Neutron's Protonic Reversal'
+  hosts: 'conan', 'friend'
+  site: 'http://protonicreversal.com'
+  twitter: ''
+  facebook: ''
+  tags: 'rock', 'commentary', 'sports'
+  description: >
+    This is where we can talk about how great this show is and
+    so on and so forth. Blah blah blah. I can see your lips move
+    but all I'm hearing is blah blah blah.
+
+takedownnotice:
+  name: 'Take Down Notice'
+  hosts: 'joesepi'
+  site: 'http://takedownnotice.rocks'
+  twitter: ''
+  facebook: takedownnoticerocks
+  tags: 'shit-rock', 'street-talk'
+  description: >
+    And so it goes. Another shit rock show that can barely sustain
+    itself. And another nap-wrecker blowing chunks out his word hole.
+    It's all I can do to get up off the god damned couch to change the
+    god damned channel. But I wont.
