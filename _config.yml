@@ -10,3 +10,21 @@ twitter_username: radionope
 
 # Build settings
 markdown: kramdown
+
+collections:
+  people:
+    output: true
+  shows:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: people
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: shows
+    values:
+      layout: page
