@@ -1,0 +1,21 @@
+<div class="detail">
+  <a class="detail-photo" href="{{include.detail.url}}">
+    <img src="/images/{{ include.category }}/{{include.detail.image}}" style="max-width:100px;max-height:100px;">
+  </a>
+
+  <div class="detail-info">
+
+  {% if include.detail.name %}
+  <h3><a href="{{include.detail.url}}">{{include.detail.name}}</a></h3>
+  {% endif %}
+
+  {% if include.detail.twitter %}
+  <a href="https://twitter.com/{{include.detail.twitter}}"><i class="fa fa-twitter"></i></a>
+  {% endif %}
+
+  {% if include.detail.site %}
+  <a href="{{include.detail.site}}"><i class="fa fa-internet-explorer"></i></a>
+  {% endif %}
+
+  </div>
+</div>
