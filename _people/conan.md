@@ -1,7 +1,8 @@
 ---
 name: Conan Neutron
-twitter: neutron-x
+twitter: conanneutron
 site: 'http://neutron-x.com'
+image: conan.jpg
 ---
 
 Conan is the man. He is the man. No doubt about it.
