@@ -22,9 +22,11 @@ defaults:
       path: ""
       type: people
     values:
-      layout: page
+      layout: detail-page
+      type: people
   - scope:
       path: ""
       type: shows
     values:
-      layout: page
+      layout: detail-page
+      type: shows

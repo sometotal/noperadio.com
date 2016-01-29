@@ -13,6 +13,4 @@ tags:
   - sports
 ---
 
-<img src="/images/shows/{{page.image}}" style="float:left;margin:0 20px 20px 0;max-width:200px;max-height:200px;">
-
 This is where we can talk about how great this show is and so on and so forth. Blah blah blah. I can see your lips move but all I'm hearing is blah blah blah.

@@ -45,21 +45,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "custom"
 ;
-
-.detail-page {
-  margin: 0 auto;
-  max-width: 660px;
-}
-.detail{
-  float: left;
-  margin: 0 25px 50px;
-  width: 160px;
-  text-align: center;
-}
-.detail-info h3 {
-  font-size: 1rem;
-  margin-bottom: 0;
-  margin-top: 1rem;
-}
