@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /people/
-title: The People behind the Nope
-tagline: All the lovely people, where do they all come from
+title: People
+tagline: The People behind the Nope
 ---
 
 <div class="people-page">
