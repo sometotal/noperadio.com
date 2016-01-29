@@ -5,9 +5,9 @@ title: People
 tagline: The People behind the Nope
 ---
 
-<div class="people-page">
+<div class="detail-page">
 {% for person in site.people %}
-{% include person-details.html %}
+{% include details.html detail=person category="people" %}
 {% endfor %}
 </div>
 

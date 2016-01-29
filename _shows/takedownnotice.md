@@ -2,8 +2,10 @@
 name: Take Down Notice
 hosts: joesepi
 site: 'http://takedownnotice.rocks'
-twitter:
 facebook: takedownnoticerocks
+image: take-down-notice.jpg
+podcast-dir: takedownnotice
+slot: thu-2200-2300
 tags:
   - shit-rock
   - street-talk

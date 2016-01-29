@@ -1,7 +1,7 @@
 ---
 name: Conan Neutron
 twitter: conanneutron
-site: 'http://neutron-x.com'
+site: http://neutron-x.com
 image: conan.jpg
 ---
 

@@ -1,9 +1,12 @@
 ---
-name: Conan Neutron\'s Protonic Reversal
-hosts: [ conan, friend ]
-site: 'http://protonicreversal.com'
+name: Conan Neutrons Protonic Reversal
+hosts: [ conan, BrennaBetts ]
+site: http://www.radioneutron.com
 twitter:
-facebook: protonicreversal
+facebook: https://www.facebook.com/radioneutron
+image: conanandbrenna.jpg
+slot: thu-2000-2200
+reair: [ sun-2200-2600, tue-0500-0900 ]
 tags:
   - rock
   - commentary
