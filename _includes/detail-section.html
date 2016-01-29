@@ -17,5 +17,13 @@
   <a href="{{include.detail.site}}"><i class="fa fa-internet-explorer"></i></a>
   {% endif %}
 
+  {% if include.detail.facebook %}
+  <a href="https://facebook.com/{{include.detail.facebook}}"><i class="fa fa-facebook"></i></a>
+  {% endif %}
+
+  {% if include.detail.podcast-dir %}
+  <a href="/podcasts/{{include.detail.podcast-dir}}"><i class="fa fa-folder-open"></i></a>
+  {% endif %}
+
   </div>
 </div>

@@ -1,0 +1,21 @@
+.detail {
+  float: left;
+  margin: 0 25px 50px;
+  width: 160px;
+  text-align: center;
+}
+.detail-info h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  margin-top: 1rem;
+}
+
+.detail-page {
+  .profile-image {
+    border: 1px solid #e8e8e8;
+    float: left;
+    margin: 0 20px 20px;
+    max-height: 200px;
+    max-width: 200px;
+  }
+}
