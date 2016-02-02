@@ -1,3 +1,8 @@
+.index-container {
+  display: inline-block;
+  margin:0 auto;
+}
+
 .detail {
   float: left;
   margin: 0 25px 50px;
@@ -29,4 +34,53 @@
 
 .site-nav {
   line-height: 70px;
+}
+
+.module-box {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  float: left;
+  margin: 10px 19px;
+  max-width: 520px;
+  width: 330px;
+
+  .module-header {
+    padding: 12px;
+    border-bottom: 1px solid #e8e8e8;
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 18px;
+      margin-bottom: 0;
+    }
+  }
+
+  .module-body {
+    font-size: 14px;
+
+    > div {
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+  }
+}
+
+.twitter-module {
+  float: left;
+  margin: 10px 19px;
+  width: 330px;
+}
+
+.show-row {
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 12px;
+
+  h3 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 12px;
+  }
 }
