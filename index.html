@@ -40,12 +40,25 @@ layout: default
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
   </div>
 
-  <div class="module-box">
+  <div class="module-box schedule-module hide">
     <div class="module-header">
       <h2>What's on/next/whatever</h2>
     </div>
-    <div class="module-body">
 {% include schedule.html %}
-    </div>
+    <div class="module-footer"><a href="/schedule">See full schedule</a></div>
   </div>
 </div>
+
+<script>
+$(function() {
+  var weekdays = [ 'sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
+
+  var current_date = new Date();
+  var day = weekdays[current_date.getDay()];
+  console.log(day);
+
+  $('.schedule-module .module-body').addClass('hide');
+  $('#'+day).removeClass('hide');
+  $('.schedule-module').removeClass('hide');
+});
+</script>

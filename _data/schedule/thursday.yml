@@ -1,0 +1,12 @@
+- start: 6:00 PM
+  end: 8:00 PM
+  show: jackpot-plus
+
+- start: 8:00 PM
+  end: 10:00 PM
+  show: protonic
+
+- start: 10:00 PM
+  end: 11:00 PM
+  show: take-down-notice
+
