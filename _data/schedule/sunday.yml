@@ -1,0 +1,12 @@
+- start: 9:00 AM
+  end: 12:00 PM
+  show: take-down-notice
+
+- start: 12:00 PM
+  end: 2:00 PM
+  show: protonic
+
+- start: 4:00 PM
+  end: 6:00 PM
+  show: step-to-the-music
+

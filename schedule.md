@@ -4,4 +4,9 @@ title: Schedule
 permalink: /schedule/
 ---
 
-This is where we will generate the schedule based on a JSON file. JavaScript all the things!
+
+<div class="module-box">
+  <div class="module-body">
+{% include schedule.html %}
+  </div>
+</div>
