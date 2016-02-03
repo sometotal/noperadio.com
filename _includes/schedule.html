@@ -1,0 +1,8 @@
+{% for slot in site.data.schedule.sunday %}
+{% for show in site.shows %}
+  {% if show.show-id == slot.show %}
+  {% include show-row.html show=show slot=slot %}
+  {% endif %}
+{% endfor %}
+{% endfor %}
+
