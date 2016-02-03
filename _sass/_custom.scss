@@ -79,6 +79,11 @@
   }
 }
 
+h3 .replay-archive {
+  font-size: 12px;
+  font-weight: normal;
+}
+
 .module-footer {
   font-size: 14px;
   padding: 12px;
@@ -94,8 +99,9 @@
   width: 330px;
 }
 
-.show-row {
+.row {
   border-bottom: 1px solid #e8e8e8;
+  overflow: hidden;
   padding-bottom: 12px;
 
   h3 {
@@ -104,4 +110,13 @@
     line-height: 16px;
     margin-top: 12px;
   }
+}
+
+.person-row .icons {
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+
+.person-row .blurb {
+  clear: both;
 }
