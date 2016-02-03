@@ -13,3 +13,4 @@
 - start: 11:00 PM
   end: 12:00 AM
   show: step-to-the-music
+  replay: true

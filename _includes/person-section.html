@@ -1,0 +1,39 @@
+<div class="row person-row">
+
+  <div>
+    {% if include.detail.name %}
+    <h3>{{include.detail.name}}</h3>
+    {% endif %}
+
+    <div class="icons">
+      {% if include.detail.twitter %}
+      <a href="https://twitter.com/{{include.detail.twitter}}"><i class="fa fa-twitter"></i></a>
+      {% endif %}
+
+      {% if include.detail.site %}
+      <a href="{{include.detail.site}}"><i class="fa fa-internet-explorer"></i></a>
+      {% endif %}
+
+      {% if include.detail.facebook %}
+      <a href="https://facebook.com/{{include.detail.facebook}}"><i class="fa fa-facebook"></i></a>
+      {% endif %}
+
+      {% if include.detail.soundcloud %}
+      <a href="https://soundcloud.com/{{include.detail.soundcloud}}"><i class="fa fa-soundcloud"></i></a>
+      {% endif %}
+
+      {% if include.detail.podcast-dir %}
+      <a href="/podcasts/{{include.detail.podcast-dir}}"><i class="fa fa-folder-open"></i></a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="blurb">
+    <a class="detail-photo" href="{{include.detail.url}}">
+      <img src="/images/{{ include.category }}/{{include.detail.image}}" style="max-width:100px;max-height:100px;margin:0 10px 10px 0;float:left">
+    </a>
+    {% if include.detail.content %}
+    {{include.detail.content}}
+    {% endif %}
+  </div>
+</div>
