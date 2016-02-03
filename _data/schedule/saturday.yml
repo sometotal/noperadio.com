@@ -1,0 +1,25 @@
+- start: 12:00 PM
+  end: 2:00 PM
+  show: none-of-the-above
+  replay: true
+
+- start: 3:00 PM
+  end: 5:00 PM
+  show: protonic
+  replay: true
+
+- start: 8:00 PM
+  end: 9:00 PM
+  show: hot-box
+
+- start: 9:00 PM
+  end: 10:00 PM
+  show: jailbreak
+
+- start: 10:00 PM
+  end: 11:00 PM
+  show: killed-by-depth
+
+- start: 11:00 PM
+  end: 12:00 AM
+  show: step-to-the-music

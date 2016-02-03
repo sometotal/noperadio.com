@@ -1,5 +1,5 @@
 <div class="show-row">
-  <h3>{{include.show.name}}</h3>
+  <h3>{{include.show.name}}{% if replay == true %} (replay){% endif %}{% if archive == true %} (archive){% endif %}</h3>
   <div>{{include.slot.start}} - {{include.slot.end}} (EST)</div>
   <div>{{include.show.tagline}}</div>
   <div><a href="#">more &rarr;</a></div>

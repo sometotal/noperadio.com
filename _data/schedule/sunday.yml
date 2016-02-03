@@ -1,12 +1,38 @@
-- start: 9:00 AM
-  end: 12:00 PM
+- start: 12:00 AM
+  end: 1:00 AM
   show: take-down-notice
 
+- start: 1:00 AM
+  end: 2:00 AM
+  show: killed-by-depth
+
+- start: 2:00 AM
+  end: 3:00 AM
+  show: cold-storage
+  archive: true
+
 - start: 12:00 PM
-  end: 2:00 PM
-  show: protonic
+  end: 1:00 PM
+  show: songs-from-under-the-floorboards
+  replay: true
+
+- start: 2:00 PM
+  end: 4:00 PM
+  show: all-the-rock-az
+  replay: true
 
 - start: 4:00 PM
-  end: 6:00 PM
-  show: step-to-the-music
+  end: 5:00 PM
+  show: sabbath-sundays
 
+- start: 5:00 PM
+  end: 6:00 PM
+  show: hot-box
+
+- start: 8:00 PM
+  end: 9:00 PM
+  show: killed-by-depth
+
+- start: 9:00 PM
+  end: 12:00 AM
+  show: cold-storage

@@ -1,8 +1,16 @@
-{% for slot in site.data.schedule.sunday %}
+{% for day in site.data.schedule.day-order %}
+<div id="{{day}}" class="module-body">
+<h3>{{ day | capitalize }}</h3>
+
+{% for slot in site.data.schedule.[day] %}
+
 {% for show in site.shows %}
   {% if show.show-id == slot.show %}
   {% include show-row.html show=show slot=slot %}
   {% endif %}
 {% endfor %}
+
 {% endfor %}
 
+</div>
+{% endfor %}
