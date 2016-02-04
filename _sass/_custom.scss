@@ -142,3 +142,18 @@ h3 .replay-archive {
   margin:0 20px 20px 0;
   float:left;
 }
+
+.show-row {
+  ul {
+    list-style: none;
+    margin-left: 0;
+
+    li {
+      margin: 4px 0;
+
+      &.more {
+        margin-top: 12px;
+      }
+    }
+  }
+}

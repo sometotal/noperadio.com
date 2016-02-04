@@ -4,7 +4,7 @@ name: None of the Above
 hosts: [ turton ]
 image:
 tags: [ rock, commentary, sports ]
-tagline: Here's a little tagline for you all
+tagline: Talk, Tunes, Gear, Jokes, Beer.
 ---
 
-This is where we can talk about how great this show is and so on and so forth. Blah blah blah. I can see your lips move but all I'm hearing is blah blah blah.
+None of the Above is a comedy talk show that focuses on heavy music, heavy drinking, and havin a good times based out of Louisville Kentucky and hosted by member of the noise rock band WAXEATER. We talk to local bands, drink beer, crack-wise, play games, take live phone calls, and party.

@@ -4,7 +4,7 @@ name: The Hot Box
 hosts: [ peel ]
 image:
 tags: [ rock, commentary, sports ]
-tagline: If it's too hot, check out Cold Storage
+tagline: It'd be a lot cooler if you did
 ---
 
-This is where we can talk about how great this show is and so on and so forth. Blah blah blah. I can see your lips move but all I'm hearing is blah blah blah.
+Stoner, doom, fuzz, and miscellaneous heavy music, brought to you by California Proposition 215
