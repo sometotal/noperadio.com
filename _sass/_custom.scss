@@ -3,6 +3,10 @@
   margin:0 auto;
 }
 
+.post-content {
+  overflow: hidden;
+}
+
 .hide {
   display: none;
 }
@@ -47,6 +51,11 @@
   float: left;
   margin: 10px 18px;
   max-width: 700px;
+
+  &.page-module {
+    float: none;
+    margin: 10px auto;
+  }
 }
 
 .index-container .module-box {

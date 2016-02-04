@@ -4,6 +4,6 @@ title: Schedule
 permalink: /schedule/
 ---
 
-<div class="module-box">
+<div class="module-box page-module">
 {% include schedule.html %}
 </div>
