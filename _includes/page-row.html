@@ -1,4 +1,4 @@
-<div class="row person-row">
+<div class="row page-row">
 
   <div>
     {% if include.detail.name %}
@@ -29,9 +29,9 @@
   </div>
 
   <div class="blurb">
-    <a class="detail-photo" href="{{include.detail.url}}">
-      <img src="/images/{{ include.category }}/{{include.detail.image}}" style="max-width:100px;max-height:100px;margin:0 10px 10px 0;float:left">
-    </a>
+    {% if include.detail.image%}
+    <img class="profile-image" src="/images/{{ include.category }}/{{include.detail.image}}">
+    {% endif %}
     {% if include.detail.content %}
     {{include.detail.content}}
     {% endif %}

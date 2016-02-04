@@ -24,8 +24,8 @@
     border: 1px solid #e8e8e8;
     float: left;
     margin: 0 20px 20px;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
   }
 }
 
@@ -46,7 +46,7 @@
   border-radius: 5px;
   float: left;
   margin: 10px 18px;
-  max-width: 520px;
+  max-width: 700px;
 }
 
 .index-container .module-box {
@@ -105,18 +105,31 @@ h3 .replay-archive {
   padding-bottom: 12px;
 
   h3 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 16px;
     margin-top: 12px;
   }
+
+  &.show-row h3 {
+    font-size: 16px;
+  }
+
+  .icons {
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+
+  .blurb {
+    clear: both;
+  }
 }
 
-.person-row .icons {
-  margin-top: -8px;
-  margin-bottom: 10px;
-}
 
-.person-row .blurb {
-  clear: both;
+.profile-image {
+  border: 1px solid #eee;
+  max-width: 200px;
+  max-height: 200px;
+  margin:0 20px 20px 0;
+  float:left;
 }
