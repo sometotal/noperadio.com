@@ -6,10 +6,8 @@ site: http://www.radioneutron.com
 twitter:
 facebook: radioneutron
 image: conanandbrenna.jpg
-slot: thu-2000-2200
-reair: [ sun-2200-2600, tue-0500-0900 ]
 tags: [ rock, commentary, sports ]
-tagline: Straight Talk Express with tracks and guests
+tagline: Hot rockin' and rad talkin'. Tunes, laughs, talk, you get it...
 ---
 
-This is where we can talk about how great this show is and so on and so forth. Blah blah blah. I can see your lips move but all I'm hearing is blah blah blah.
+Rocker ennui, amusing anecdotes, interesting interviews, incredible rock music that does not forget to rock and assorted hijinx.
