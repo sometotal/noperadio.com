@@ -9,7 +9,7 @@ twitter_username: radionope
 # github_username:
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
 collections:
   people:
