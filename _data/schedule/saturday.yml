@@ -1,3 +1,7 @@
+- start: 1:00 AM
+  end: 3:00 AM
+  show: the-topdollar-hour
+
 - start: 12:00 PM
   end: 2:00 PM
   show: none-of-the-above
