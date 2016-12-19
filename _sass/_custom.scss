@@ -157,3 +157,14 @@ h3 .replay-archive {
     }
   }
 }
+
+// CHAT OVERRIDES
+#chat-frame {
+  left: 110px !important;
+  border-radius: 0 !important;
+  border-width: 1px !important;
+  width: 215px !important;
+}
+#chat {
+  width: 215px !important;
+}
