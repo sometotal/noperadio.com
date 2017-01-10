@@ -2,6 +2,7 @@
 show-id: jackpot-plus
 name: Jackpot Plus
 hosts: [ mcclune ]
+podcast-dir: jackpotplus
 image:
 tags: [ rock, commentary, sports ]
 tagline: Rocktronimath for the mathsses!

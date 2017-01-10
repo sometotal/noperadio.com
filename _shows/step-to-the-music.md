@@ -2,6 +2,7 @@
 show-id: step-to-the-music
 name: Step to the Music
 hosts: [ bob ]
+podcast-dir: steptothemusic
 facebook: steptothemusic
 image: step.png
 tags: [ dance ]

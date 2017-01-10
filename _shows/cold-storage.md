@@ -2,6 +2,7 @@
 show-id: cold-storage
 name: Cold Storage
 hosts: [ sowley ]
+podcast-dir: coldstorage
 image:
 tags: [ rock, commentary, sports ]
 tagline: Giving Up and Turning Loose

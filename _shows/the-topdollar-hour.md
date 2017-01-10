@@ -2,6 +2,7 @@
 show-id: the-topdollar-hour
 name: The TopDollar Hour
 hosts: [ tunacan ]
+podcast-dir: TheTopDollarHour
 image: the-topdollar-hour.jpg
 tags: [ rock ]
 tagline: Musical Enjoyment for the Bipolar!
