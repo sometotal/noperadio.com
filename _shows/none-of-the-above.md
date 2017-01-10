@@ -2,6 +2,7 @@
 show-id: none-of-the-above
 name: None of the Above
 hosts: [ turton ]
+podcast-dir: noneoftheabove
 image:
 tags: [ rock, commentary, sports ]
 tagline: Talk, Tunes, Gear, Jokes, Beer.

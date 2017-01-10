@@ -2,7 +2,7 @@
 show-id: songs-from-under-the-floorboards
 name: Songs From Under the Floorboards
 hosts: [ jacques ]
-site: http://www.radionope.com/podcasts/songsfromunderthefloorboards/
+podcast-dir: songsfromunderthefloorboards
 twitter:
 facebook: fromunderthefloorboards
 image: FloorboardsNewLogo.jpg

@@ -2,6 +2,7 @@
 show-id: live-from-the-barrage
 name: Live From The Barrage
 hosts: [ houlihan ]
+podcast-dir: barrage
 image: live-from-the-barrage.jpg
 tags: [ rock, commentary, sports ]
 tagline: We interviewed Marc Maron!

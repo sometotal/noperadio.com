@@ -2,6 +2,7 @@
 show-id: killed-by-depth
 name: Killed By Depth
 hosts: [ burns ]
+podcast-dir: killed%20by%20death
 image:
 tags: [ rock, commentary, sports ]
 tagline: How low can you go?

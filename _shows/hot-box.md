@@ -2,6 +2,7 @@
 show-id: hot-box
 name: The Hot Box
 hosts: [ peel ]
+podcast-dir: hotbox
 image:
 tags: [ rock, commentary, sports ]
 tagline: It'd be a lot cooler if you did

@@ -2,6 +2,7 @@
 show-id: protonic
 name: Conan Neutrons Protonic Reversal
 hosts: [ conan, BrennaBetts ]
+podcast-dir: protonicreversal
 site: http://www.radioneutron.com
 twitter:
 facebook: radioneutron
