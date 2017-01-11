@@ -2,6 +2,7 @@
 show-id: spacerock-continuum
 name: The Spacerock Continuum
 hosts: [ beedub ]
+site: http://spacerockcontinuum.blogspot.com/
 podcast-dir: spacerockcontinuum
 facebook: The-Spacerock-Continuum-198178113552719
 image: spacerock-continuum.jpg

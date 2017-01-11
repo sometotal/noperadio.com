@@ -1,6 +1,6 @@
 # Site settings
 title: Radio Nope
-email: hello@radionope.com
+email: nope@radionope.com
 description: > # this means to ignore newlines until "baseurl:"
   NOPE is the supreme alliance of radio. NOPE plays all your future favorite bands. NOPE will make you laugh when the world is woe. NOPE is all you need.
 baseurl: "" # the subpath of your site, e.g. /blog/
