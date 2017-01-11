@@ -11,14 +11,13 @@
   show: cold-storage
   archive: true
 
+- start: 11:00 AM
+  end: 12:00 PM
+  show: hit-it-and-split
+
 - start: 12:00 PM
   end: 1:00 PM
   show: songs-from-under-the-floorboards
-  replay: true
-
-- start: 2:00 PM
-  end: 4:00 PM
-  show: all-the-rock-az
   replay: true
 
 - start: 4:00 PM
