@@ -6,7 +6,22 @@ RadioNope Development
 
 A group of friends who love music and are happy to share it with the masses.
 
-## You code and you want to help?
+## Archive and Deploy
+
+See the corresponding `sh` files in root.
+
+### Archive
+
+- Archive should be already copied to server root.
+- Run archive before a deploy, which backs up radionope.com on the server, excluding podcasts directory.
+
+Then:
+
+1. make sure your `_site` directory has been built with the latest code you that want to deploy
+1. run deploy.sh from the root of your local repo: `sh deploy.sh`
+
+
+# You code and you want to help?
 
 Great! Do you know Jekyll? Do you know Jekyll on Github Pages? If not, continue reading...
 
