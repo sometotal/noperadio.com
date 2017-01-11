@@ -4,7 +4,8 @@ CNAME
 archive-exclude-list.txt
 archive.sh
 deploy-exclude-list.txt
-deploy.shGemfile
+deploy.sh
+Gemfile
 Gemfile.lock
 jekyll/
 README.md
