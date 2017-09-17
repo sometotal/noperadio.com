@@ -6,19 +6,55 @@ RadioNope Development
 
 A group of friends who love music and are happy to share it with the masses.
 
-## Archive and Deploy
+## Schedule/Roster management
+
+A typical update involves adding a show and a DJ. We'll need some but not all of the following info:
+
+- Show title
+- Show podcast directory or URL
+- Show image
+- Show tags
+- Show tagline
+- Show description
+- Show social media
+- Show day/timeslot
+- Show re-airs if any
+
+
+- DJ name
+- DJ blurb/bio
+- DJ social media
+- DJ image
+
+Adding a band/DJ requires the following steps:
+
+1. Add show markdown file to `/_shows`
+1. Add show image to `/images/shows`
+1. Add DJ markdown file to `/_people`
+1. Add DJ image to `/images/people`
+1. Update schedule: `/data/schedule/${dayname}.md`
+1. Once verified and changes merged in, run Archive & Deploy (below)
+
+## Archive, Build and Deploy
 
 See the corresponding `sh` files in root.
 
 ### Archive
 
 - Archive should be already copied to server root.
-- Run archive before a deploy, which backs up radionope.com on the server, excluding podcasts directory.
+- Run archive before a deploy, which backs up radionope.com on the server, excluding podcasts directory:
+
+1. ssh into server
+1. run archive script: `sh archive.sh`
+1. verify that a zip file has been added to `/archives` directory with timestamp
 
 Then:
 
-1. make sure your `_site` directory has been built with the latest code you that want to deploy
+### Build and deploy
+
+1. make sure your `_site` directory has been built with the latest code you that want to deploy by running `bundle exec jekyll build`
 1. run deploy.sh from the root of your local repo: `sh deploy.sh`
+1. verify site changes online
 
 
 # You code and you want to help?
