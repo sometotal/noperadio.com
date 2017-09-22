@@ -1,7 +1,9 @@
 ---
 name: Maksim
-image:
-facebook:
+facebook: maksim.stoimenov
+twitter: souletti
+instagram: souletti
+image: maksim.jpg
 ---
 
-From the Old Continent
+Maksim is the drummer for the bands Mental Architects & BROND. Regularly has lucid dreams of jamming with Ian MacKaye or hanging out with Henry Rollins.
