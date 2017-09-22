@@ -5,4 +5,4 @@ site: http://neutron-x.com
 image: conan.jpg
 ---
 
-Conan is the man. He is the man. No doubt about it.
+The Supreme Allied Commander of rock. Rocker, Talker, yeah... you get it.
